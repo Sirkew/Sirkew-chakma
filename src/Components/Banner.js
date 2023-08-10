@@ -11,7 +11,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+    const toRotate = [ "Developer", "Designer" ];
     const period = 2000;
   
     useEffect(() => {
@@ -53,7 +53,8 @@ export const Banner = () => {
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
                     <span className="tagline">Welcome to my portfolio</span>
-                    <h1>{'Hi I am Sirkew Chakma '} <span className="wrap">{text}</span></h1>
+                    <h1>{'Hi I am Sirkew Chakma '} <br/>
+                     <span className="wrap">Web {text}</span></h1>
                     <p>I've been a front-end developer for the past two years, and I know a lot about the most recent web technologies.</p>
                     <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
                 </Col>
