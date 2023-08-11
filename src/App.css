@@ -621,3 +621,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+
+@media screen and (max-width: 600px) {
+  .footer-img {
+    display: none;
+  }
+  .social-icon{
+    margin-top: 500px;
+  }
+}
+
+@media screen and (max-width: 768px){
+      .footer-img {
+        display: none;
+      }
+      .social-icon{
+        margin-top: 500px;
+        text-align: center;
+      }
+}
