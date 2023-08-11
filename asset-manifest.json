@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Sirkew-chakma/static/css/main.bfd9c8a0.css",
+    "main.js": "/Sirkew-chakma/static/js/main.8eee94ad.js",
+    "static/js/787.0dab67c5.chunk.js": "/Sirkew-chakma/static/js/787.0dab67c5.chunk.js",
+    "static/media/sirkew.png": "/Sirkew-chakma/static/media/sirkew.d521f6c00375fe137c83.png",
+    "static/media/proj-2.png": "/Sirkew-chakma/static/media/proj-2.f30029b844f3c3cb8742.png",
+    "static/media/color-sharp.png": "/Sirkew-chakma/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/proj-6.png": "/Sirkew-chakma/static/media/proj-6.f96194e4a5c188ca71dc.png",
+    "static/media/color-sharp2.png": "/Sirkew-chakma/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/proj-5.png": "/Sirkew-chakma/static/media/proj-5.9fd9560ae388233e5d70.png",
+    "static/media/proj-3.png": "/Sirkew-chakma/static/media/proj-3.4f7c13d3bb860ae809b9.png",
+    "static/media/proj-1.png": "/Sirkew-chakma/static/media/proj-1.439d6323a2c14f710e66.png",
+    "static/media/proj-4.png": "/Sirkew-chakma/static/media/proj-4.1e2e870e25df5c736e45.png",
+    "static/media/banner-bg.png": "/Sirkew-chakma/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/logo.png": "/Sirkew-chakma/static/media/logo.2296bdcea768614c9893.png",
+    "static/media/footer-bg.png": "/Sirkew-chakma/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/Sirkew-chakma/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/Sirkew-chakma/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Sirkew-chakma/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Sirkew-chakma/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/Sirkew-chakma/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/Sirkew-chakma/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/Sirkew-chakma/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/github.svg": "/Sirkew-chakma/static/media/github.dc49a960a2d3c5a49c806f6188a7733b.svg",
+    "index.html": "/Sirkew-chakma/index.html",
+    "static/media/linkedin.svg": "/Sirkew-chakma/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
+    "static/media/facebook.svg": "/Sirkew-chakma/static/media/facebook.1fc810a8e15c60ec41d7d0586cb4c1d5.svg",
+    "main.bfd9c8a0.css.map": "/Sirkew-chakma/static/css/main.bfd9c8a0.css.map",
+    "main.8eee94ad.js.map": "/Sirkew-chakma/static/js/main.8eee94ad.js.map",
+    "787.0dab67c5.chunk.js.map": "/Sirkew-chakma/static/js/787.0dab67c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfd9c8a0.css",
+    "static/js/main.8eee94ad.js"
+  ]
+}
