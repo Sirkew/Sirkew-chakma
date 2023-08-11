@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sirkew-chakma/static/css/main.bfd9c8a0.css",
-    "main.js": "/Sirkew-chakma/static/js/main.8eee94ad.js",
+    "main.js": "/Sirkew-chakma/static/js/main.da327271.js",
     "static/js/787.0dab67c5.chunk.js": "/Sirkew-chakma/static/js/787.0dab67c5.chunk.js",
     "static/media/sirkew.png": "/Sirkew-chakma/static/media/sirkew.d521f6c00375fe137c83.png",
     "static/media/proj-2.png": "/Sirkew-chakma/static/media/proj-2.f30029b844f3c3cb8742.png",
@@ -27,11 +27,11 @@
     "static/media/linkedin.svg": "/Sirkew-chakma/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
     "static/media/facebook.svg": "/Sirkew-chakma/static/media/facebook.1fc810a8e15c60ec41d7d0586cb4c1d5.svg",
     "main.bfd9c8a0.css.map": "/Sirkew-chakma/static/css/main.bfd9c8a0.css.map",
-    "main.8eee94ad.js.map": "/Sirkew-chakma/static/js/main.8eee94ad.js.map",
+    "main.da327271.js.map": "/Sirkew-chakma/static/js/main.da327271.js.map",
     "787.0dab67c5.chunk.js.map": "/Sirkew-chakma/static/js/787.0dab67c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfd9c8a0.css",
-    "static/js/main.8eee94ad.js"
+    "static/js/main.da327271.js"
   ]
 }
