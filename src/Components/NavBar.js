@@ -40,15 +40,16 @@ export const NavBar = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</NavLink>
-            <NavLink href="#Skills" className={activeLink === 'Skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Skills')}>Skills</NavLink>
-            <NavLink href="#Project" className={activeLink === 'Project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Project')}>Project</NavLink> 
+            <NavLink href="#Home" className={activeLink === 'Home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</NavLink>
+            <NavLink href="#skills" className={activeLink === 'Skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Skills')}>Skills</NavLink>
+            <NavLink href="#project" className={activeLink === 'Project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Project')}>Project</NavLink> 
+            <NavLink href="#contact" className={activeLink === 'Contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Contact')}>Contact</NavLink>
           </Nav>
           <span className='navbar-text'>
                 <div className='social-icon'>
-                    <NavLink href="#"><img src={navIcon1} alt='' /></NavLink>
-                    <NavLink href="#"><img src={navIcon2} alt='' /></NavLink>
-                    <NavLink href="#"><img src={navIcon3} alt='' /></NavLink>
+                    <NavLink href="https://www.facebook.com/profile.php?id=100093679211654"><img src={navIcon1} alt='' /></NavLink>
+                    <NavLink href="https://www.linkedin.com/in/sirkew-chakma-b400851b8/"><img src={navIcon2} alt='' /></NavLink>
+                    <NavLink href="https://github.com/Sirkew"><img src={navIcon3} alt='' /></NavLink>
                 </div>
                 <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </span>
