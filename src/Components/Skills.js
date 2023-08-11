@@ -42,27 +42,27 @@ export const Skills = () => {
                             <Carousel responsive={responsive} infinite={true} className=" skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt='Image' />
-                                    <h5>Web Development</h5>
+                                    <h5>HTML, CSS</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt='Image' />
-                                    <h5>Web Design</h5>
+                                    <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt='Image' />
-                                    <h5>Logo Design</h5>
+                                    <h5>React JS</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt='Image' />
-                                    <h5>Video Editing</h5>
+                                    <h5>Node JS</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt='Image' />
-                                    <h5>SEO</h5>
+                                    <h5>Express JS</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt='Image' />
-                                    <h5>UI/UX Design</h5>
+                                    <h5>Mongo DB</h5>
                                 </div>
                             </Carousel>
                         </div>

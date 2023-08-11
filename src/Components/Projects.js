@@ -28,8 +28,8 @@ export const Projects = () => {
             imgUrl: projImg3,
           },
           {
-            title: "Bohemian",
-            description: "Gents & Ladies Fashion",
+            title: "Boichitro",
+            description: "Indigenious Market Place",
             imgUrl: projImg4,
           },
           {
@@ -45,51 +45,51 @@ export const Projects = () => {
     ];
 
     return (
-        <section className="project" id="project">
-            <Container>
-                <Row>
-                    <Col>
-                        <h2>Projects</h2>
-                        <p></p>
-                        <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
-                  <Tab.Content>
-                    <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Tab.Container>
-                    </Col>
-                </Row>
-            </Container>
+      <section className="project" id="projects">
+        <Container>
+          <Row>
+            <Col>
+              <h2>Projects</h2>
+              <p></p>
+            <Tab.Container id="projects-tabs" defaultActiveKey="first">
+              <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                <Nav.Item>
+                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                </Nav.Item>
+              </Nav>
+              <Tab.Content>
+                <Tab.Pane eventKey="first">
+                  <Row>
+                    {
+                      projects.map((project, index) => {
+                        return (
+                          <ProjectCard
+                            key={index}
+                            {...project}
+                            />
+                        )
+                      })
+                    }
+                  </Row>
+                  </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                      <p>I've been a front-end developer for the past two years, and I know a lot about the most recent web technologies.</p>
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="third">
+                      <p>I have experience with a range of front-end frameworks, including React JS, MongoDB, Express JS, Next JS, and Node JS. I am fluent in HTML, CSS, and JavaScript. The chance to work on innovative projects and assist you in creating the upcoming wave of web applications excites me</p>
+                  </Tab.Pane>
+              </Tab.Content>
+            </Tab.Container>
+            </Col>
+          </Row>
+        </Container>
             <img className='background-image-right' src={colorSharp2} />
-        </section>
+      </section>
     )
 }
